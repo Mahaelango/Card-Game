@@ -1,0 +1,71 @@
+/*basic calculator
+/*
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+
+button {
+    margin: 20px 0;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+*/
+body {
+    background-image: url("green bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: goldenrod;
+;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5); /* optional: improves readability */
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center; /* ✅ Align text inside the container line by line */
+    max-width: 600px;
+}
+
+h1, p {
+    font-size: larger;
+    font-style: normal;
+    color: goldenrod;
+    margin: 10px 0;
+}
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+
+#message-el {
+    font-size: medium;
+    color: rgb(210, 219, 226);
+}
+
